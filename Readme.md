@@ -102,9 +102,9 @@ print(10,10**10)
 
 * Maka output yang didapatkan :
 
-![00](https://user-images.githubusercontent.com/56512562/72216323-3a4df780-3552-11ea-8a6a-a1932dc2b86f.png)
+![00](https://user-images.githubusercontent.com/56512562/72216382-ceb85a00-3552-11ea-83cc-88ad3a8366fa.png)
 Lalu kita akan merubahnya menjadi 
-![000](https://user-images.githubusercontent.com/56512562/72216330-41750580-3552-11ea-9648-33c3c4e440c2.png)
+![000](https://user-images.githubusercontent.com/56512562/72216384-d841c200-3552-11ea-9fb6-d6437354b169.png)
 
 dengan menggunakan kode tersebut :
 ```
