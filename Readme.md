@@ -83,7 +83,7 @@ Kita dapat memasukan apa saja batasan yang diberikan untuk setiap indeks yang ad
 
 **"Pemformatan String"** digunakan agar pengguna dapat mengatur dan mengubah posisi sedemikian ruoa yang diinginkan pengguna.
 
-* Sebagai contoh sebelum di format :
+* Sebagai contoh pemformatan :
 ```
 # String Format
 print("STRING SEBELUM DI FORMAT")
@@ -122,3 +122,54 @@ print('{0:>3} {1:>16}'.format(8,10**8))
 print('{0:>3} {1:>16}'.format(9,10**9))
 print('{0:>3} {1:>16}'.format(10,10**10))
 ```
+Contoh diatas terdapat simbol **{ }** yang merupakan **_placeholder_** atau **penempatan arguments**.
+
+
+# Lab 2
+
+Dalam pembahasan kali ini adalah menggunakan **Operator pada Python**. Sebagai contoh program untuk me**masukan** dua nilai input, men**cetak** nilai, meng**gabung**kan nilai, men**jumlah**kan, serta mem**bagi**kan nilai.
+
+* Kode :
+```
+a=input("Masukan nilai a : ")
+b=input("Masukan nilai b : ")
+print("Variable a = ", a)
+print("Variable b = ", b)
+print("Hasil penggabungan {0} & {1} = %a".format(a,b) %(a+b))
+
+#Konversi Nilai Variable
+a=int(a)
+b=int(b)
+
+print("Hasil penjumlahan {0} + {1} = %d".format(a,b) %(a+b))
+print("Hasil pembagian {0} / {1} = %d".format(a,b) %(a/b))
+```
+
+* Maka output yang didapatkan :
+
+![01](https://user-images.githubusercontent.com/56512562/72216588-4f785580-3555-11ea-95cc-ac488ded5d01.png)
+
+* Keterangan :
+
+Untuk memasukan nilai, pengguna harus terlebih dahulu menjalankan program diatas. Sebagai contoh saya memasukan nilai **100** sebagai variabel pertama, dan memasukan nilai **50** sebagai variabel kedua. Setelah menentukan nilai variabel maka program akan menjalankan perintah selanjutnya yaitu menggabungkan kedua nilai variabel,
+* Kode :
+```print("Hasil penggabungan {0} & {1} = %a".format(a,b) %(a+b))```
+
+input yang telah ditentukan akan diubah dengan fungsi **"Format"**. Output yang dihasilkan dalam program ini merupakan tipe data **"String"** yang dapat diubah bentuk dengan menggunakan **"Arithmetic Operator"**. Ada sebuah perintah yang tidak dapat diajalankan di tipe data **"String"** yaitu **"/"**, maka dari itu nilai variabel harus terlebih dahulu di**"konversikan"** dengan tipe data **"Integer"** ataupun **"Float"**.
+* Kode :
+```
+a = int(a)
+b = int(b)
+```
+Setelah dikonversikan maka pengguna dapat melaksanakan perintah selanjutnya seperti berikut
+* Kode : 
+```
+print("Hasil penjumlahan {0} + {1} = %d".format(a,b) %(a+b))
+print("Hasil pembagian {0} / {1} = %d".format(a,b) %(a/b))
+```
+perintah diatas merupakan perintah untuk mencetak, menghitung, dan memformat kembali output yang didapatkan.
+
+
+
+
+## Terima Kasih
